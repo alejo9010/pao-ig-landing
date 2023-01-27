@@ -3,3 +3,13 @@
 @tailwind components;
 
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+.link-bg-decoration::after {
+  @apply h-52 w-52 absolute bg-yellow-700;
+}
+
+@layer base {
+  html {
+    font-family: 'Aboreto', system-ui, sans-serif;
+  }
+}
