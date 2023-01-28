@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Main() {
   return (
-    <div className='relative'>
-      <div className='absolute bg-yellow-200 h-28 w-full '>
+    <div className='relative '>
+      <div className='absolute shadow-md bg-yellow-200 h-28 w-full '>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           preserveAspectRatio='none'
@@ -51,17 +51,17 @@ function Main() {
         <div className='moveInRight flex flex-col gap-10  items-center '>
           <a
             href=' https://docs.google.com/forms/d/e/1FAIpQLSc0HcL8BBVVMhydcrF5N-LoQmQoVzKdPiQQ7UXvYjge0ksACQ/viewform'
-            className='shadow-xl shadow-yellow-700/30 bg-white px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
+            className='shadow-md  bg-white px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
             Asesorias 📝
           </a>
           <a
             href='https://www.instagram.com/polabakery/'
-            className=' shadow-xl shadow-yellow-700/30 bg-white px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
+            className=' shadow-md  bg-white px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
             @polabakery 🧁
           </a>
           <a
             href='mailto: arenspaola@gmail.com'
-            className='shadow-xl shadow-yellow-700/30 bg-white  px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
+            className='shadow-md  bg-white  px-3 py-1 w-3/4 text-center text-yellow-600 font-bold tracking-widest rounded-sm'>
             Contacto 📨
           </a>
         </div>
