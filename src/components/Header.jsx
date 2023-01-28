@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from '../assets/icons8-mindfulness-78.png';
 import { Link } from 'react-router-dom';
 function Header() {
   return (
@@ -8,7 +7,7 @@ function Header() {
         {/* Logo */}
         <div className=''>
           <Link to='/' className='text-center'>
-            <img className='h-8 w-8 mx-auto' src={logo} alt='' />
+            <img className='h-8 w-8 mx-auto' alt='' />
           </Link>
         </div>
       </div>
