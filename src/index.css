@@ -13,6 +13,18 @@
     font-family: 'Aboreto', system-ui, sans-serif;
   }
 }
+.pic-overlay {
+}
+.pic-overlay::before {
+  content: '';
+  position: absolute;
+  width: 8rem;
+  height: 8rem;
+  z-index: 5000;
+  background-color: rgb(254 240 138);
+  opacity: 0.2;
+  border-radius: 100px;
+}
 
 @keyframes moveInLeft {
   0% {
